@@ -1,14 +1,14 @@
 class Tongwen < Formula
   desc "OpenAI-compatible local Simplified→Traditional Chinese (s2tw) endpoint"
-  homepage "https://github.com/chan1plus/tongwen"
+  homepage "https://github.com/chen1plus/tongwen"
   license "MIT"
 
   # Update url + sha256 when cutting a tagged release.
-  url "https://github.com/chan1plus/tongwen/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  url "https://github.com/chen1plus/tongwen/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   version "0.1.0"
 
-  head "https://github.com/chan1plus/tongwen.git", branch: "main"
+  head "https://github.com/chen1plus/tongwen.git", branch: "main"
 
   depends_on "deno" => :build
 

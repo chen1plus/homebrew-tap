@@ -1,11 +1,11 @@
 # homebrew-tongwen
 
-Homebrew tap for [`tongwen`](https://github.com/chan1plus/tongwen) — an OpenAI-compatible local Simplified → Traditional Chinese (s2tw) endpoint.
+Homebrew tap for [`tongwen`](https://github.com/chen1plus/tongwen) — an OpenAI-compatible local Simplified → Traditional Chinese (s2tw) endpoint.
 
 ## Install
 
 ```sh
-brew tap chan1plus/tongwen
+brew tap chen1plus/tongwen
 brew install tongwen
 ```
 
@@ -33,7 +33,7 @@ When cutting a new tagged release of `tongwen`:
 3. Recompute `sha256`:
 
    ```sh
-   curl -L https://github.com/chan1plus/tongwen/archive/refs/tags/vX.Y.Z.tar.gz | shasum -a 256
+   curl -L https://github.com/chen1plus/tongwen/archive/refs/tags/vX.Y.Z.tar.gz | shasum -a 256
    ```
 
 4. Commit and push.
