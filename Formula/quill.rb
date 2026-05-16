@@ -10,7 +10,7 @@ class Quill < Formula
 
   head "https://github.com/chen1plus/quill.git", branch: "main"
 
-  # depends_on "rust" => :build
+  depends_on "rust" => :build
 
   def install
     system "cargo", "install", *std_cargo_args
