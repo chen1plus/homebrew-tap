@@ -5,7 +5,7 @@ class Tongwen < Formula
 
   # Update url + sha256 when cutting a tagged release.
   url "https://github.com/chen1plus/tongwen/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+  sha256 "03cfd355f4661851f57a00a592f1c9ae0e487942540981de2536fcdaa6386d59"
 
   head "https://github.com/chen1plus/tongwen.git", branch: "main"
 
