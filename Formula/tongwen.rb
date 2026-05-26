@@ -4,17 +4,15 @@ class Tongwen < Formula
   license "MIT"
 
   # Update url + sha256 when cutting a tagged release.
-  url "https://github.com/chen1plus/tongwen/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "6644bc9934d513b01d2ee6916f71037cc4a73f87eec83d0b72afc30156f4fe66"
-  version "0.1.0"
+  url "https://github.com/chen1plus/tongwen/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
 
   head "https://github.com/chen1plus/tongwen.git", branch: "main"
 
-  depends_on "deno" => :build
+  depends_on "rust" => :build
 
   def install
-    system "deno", "compile", "--allow-net", "--allow-env", "--output", "tongwen", "src/main.ts"
-    bin.install "tongwen"
+    system "cargo", "install", *std_cargo_args
   end
 
   service do
