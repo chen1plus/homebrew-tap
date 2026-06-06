@@ -6,7 +6,6 @@ class Quill < Formula
   # Update url + sha256 when cutting a tagged release.
   url "https://github.com/chen1plus/quill/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "c35546d5cf0b687ab5f15f7d23be3e4ea6e1628630fe2008225711bd837a501b"
-  version "0.1.0"
 
   head "https://github.com/chen1plus/quill.git", branch: "main"
 
