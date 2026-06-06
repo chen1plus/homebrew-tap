@@ -1,11 +1,9 @@
 class Tytm < Formula
   desc "Typora theme manager"
   homepage "https://github.com/chen1plus/tytm"
+  url "https://github.com/chen1plus/tytm/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "4435049caee108156f577fe28d31b545775991f0bcbcac16d7d30c5bb3bb8653"
   license "MIT"
-
-  url "https://github.com/chen1plus/tytm/archive/refs/tags/v0.3.1.tar.gz"
-  sha256 "e55a104eb5a551e0bc3432cfa6052c5100326512d537d78aef48b096a5c95260"
-  version "0.3.1"
 
   head "https://github.com/chen1plus/tytm.git", branch: "master"
 
