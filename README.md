@@ -2,6 +2,8 @@
 
 Homebrew tap for [`tongwen`](https://github.com/chen1plus/tongwen) — an OpenAI-compatible local Simplified → Traditional Chinese (s2tw) endpoint.
 
+Also includes [`tytm`](https://github.com/chen1plus/tytm), a Typora theme manager.
+
 ## Install
 
 ```sh
@@ -9,10 +11,18 @@ brew tap chen1plus/tongwen
 brew install tongwen
 ```
 
+```sh
+brew install tytm
+```
+
 Until a tagged release is published, install the HEAD version:
 
 ```sh
 brew install --HEAD tongwen
+```
+
+```sh
+brew install --HEAD tytm
 ```
 
 ## Run as a background service
