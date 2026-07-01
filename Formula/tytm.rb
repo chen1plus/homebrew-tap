@@ -4,8 +4,8 @@ class Tytm < Formula
   license "MIT"
 
   head "https://github.com/chen1plus/tytm.git", branch: "master"
-  sha256 "d4e120b4372c75bf33a5df5be4e733f05c2938da71c881f8f9cc46df6390a78d"
-  url "https://github.com/chen1plus/tytm/archive/refs/tags/v0.4.1.tar.gz"
+  sha256 "386722019a7d80a045bc96e061f651fbfcbe5e6df78819f31ad9481b9782eae2"
+  url "https://github.com/chen1plus/tytm/archive/refs/tags/v0.5.1.tar.gz"
 
   depends_on "rust" => :build
   def install
