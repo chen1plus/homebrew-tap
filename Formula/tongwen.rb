@@ -4,8 +4,8 @@ class Tongwen < Formula
   license "MIT"
 
   head "https://github.com/chen1plus/tongwen.git", branch: "main"
-  sha256 "78a49be4b81e5ebe9464b3e7536f9fd349e958cffef1d0cdd8f77dec047d2262"
-  url "https://github.com/chen1plus/tongwen/archive/refs/tags/v0.2.2.tar.gz"
+  sha256 "a9ded3569e63332646d2796c252fda4dda140cb9ff3f81f7d0a3e7245305957f"
+  url "https://github.com/chen1plus/tongwen/archive/refs/tags/v0.2.3.tar.gz"
 
   depends_on "rust" => :build
   def install
