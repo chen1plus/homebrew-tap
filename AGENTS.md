@@ -2,7 +2,6 @@
 
 - This is a Homebrew tap.
 - `Formula` is the only source of package logic.
-- Current formulae: `tongwen`, `tytm`.
 
 ## Edit Rules
 
