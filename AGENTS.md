@@ -1,10 +1,10 @@
 ## Repo Shape
 
 - This is a Homebrew tap.
-- `Formula` is the only source of package logic.
+- `Formula` holds formulae; `Casks` holds casks.
 
 ## Edit Rules
 
-- Treat each formula file as the source of truth; `README.md` is only a high-level list.
-- Keep `url` and `sha256` in sync with the tagged release for each formula.
+- Treat each formula or cask file as the source of truth.
+- Keep `url` and `sha256` in sync with the tagged release for each formula or cask.
 - Preserve the existing `head` branch when present.

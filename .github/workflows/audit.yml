@@ -13,3 +13,4 @@ jobs:
       - uses: actions/checkout@v6
       - uses: Homebrew/actions/setup-homebrew@main
       - run: brew audit --online --strict --tap ${{ github.repository }}
+      - run: brew audit --cask --online --strict --tap ${{ github.repository }}
